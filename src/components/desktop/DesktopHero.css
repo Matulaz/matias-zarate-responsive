@@ -1,0 +1,17 @@
+.txt-hero, .txt-hero-span{
+    font-family: 'Poppins', sans-serif;
+    line-height:110%
+}
+.txt-hero-span{
+    color:red;
+}
+
+.txt-hero{
+    letter-spacing: 3px;
+}
+
+.Hero{
+    background-image:url('../../assets/img/bg-hero.svg') ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
