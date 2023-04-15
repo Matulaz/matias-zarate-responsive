@@ -1,0 +1,39 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 1421">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        stroke: #fc0;
+        stroke-miterlimit: 10;
+        stroke-width: 64px;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        fill: #fc0;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" x="1083.3" y="655" width="280.41" height="810.41"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" y="-11" width="660" height="772"/>
+    </clipPath>
+  </defs>
+  <g class="cls-2">
+    <ellipse class="cls-3" cx="1423.02" cy="1079.95" rx="296.58" ry="283.3"/>
+  </g>
+  <g class="cls-4">
+    <path class="cls-5" d="M623,426.68c65.37,150.28-47.73,138.54-168.19,188-92.58,38-115.6,76.16-205.17,122.2-71.46,36.73-267.1-56.59-339.91-109-64-46.08,12.16-47-10.21-115.38C-141.66,386.6-135,204.36,15.45,129.05,145.51,64,355.1,56.13,448.35,162.49c36.78,41.94,7.1,136.76,54.58,174.87S616.8,387.44,623,426.68Z"/>
+  </g>
+</svg>

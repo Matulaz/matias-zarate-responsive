@@ -5,6 +5,7 @@ import MobileNav from './components/mobile/MobileNav'
 import DesktopNav from './components/desktop/DesktopNav'
 import DesktopHero from './components/desktop/DesktopHero'
 import DesktopBotonera from './components/desktop/DesktopBotonera'
+import DesktopPortfolio from './components/desktop/DesktopPortfolio'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <DesktopNav />
         <DesktopHero />
         <DesktopBotonera />
+        <DesktopPortfolio />
       </Box>
     </ChakraProvider>
   )
