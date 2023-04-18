@@ -12,7 +12,7 @@ function DesktopBotonera() {
 
     return(
         <ChakraProvider>
-        <Flex justify='center' >
+        <Flex justify='center' pt='50px' >
             <Box className='Buttons-container' display='flex' alignItems='center'>
                     <Box p='30px' ps='20'>portfolio dev.</Box>
                     <Box p='30px'borderLeft='#E8E2E2 solid 2px'>logros academicos</Box>
