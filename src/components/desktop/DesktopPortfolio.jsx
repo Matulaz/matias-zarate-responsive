@@ -39,10 +39,13 @@ function DesktopPortfolio(){
                         </Box>
                 </Flex>
 
-                <Flex justifyContent={'center'} alignItems={'center'} p='100px'>
+                <Box pl='100px' >
+                        <Text py='5px' fontSize='1em'fontWeight={600}>Acerca de mis...</Text> 
+                        <Text py='5px' color='red' fontSize='1.8em' letterSpacing={4} fontWeight={600}>Skills</Text>
+                </Box>
+
+                <Flex justifyContent={'center'} alignItems={'center'} px='100px'paddingBottom={1000}>
                         <Box w='50%'>
-                                <Text py='5px' fontSize='1em'fontWeight={600}>Acerca de mis...</Text> 
-                                <Text py='5px' color='red' fontSize='1.8em' letterSpacing={4} fontWeight={600}>Skills</Text>       
 
                                 <Text py='5px' fontSize='0.8em'>Desarrollo web Front End</Text>
                                 <Progress value={80} colorScheme='yellow'/>
@@ -51,9 +54,15 @@ function DesktopPortfolio(){
                                 <Text py='5px' fontSize='0.8em'>Diseño Digital</Text>
                                 <Progress value={90} colorScheme='yellow'/>                        
                         </Box>
-                        <Flex w='50%' justifyContent={'center'}>
-                                <Button p='50' m='5'display='block'><EmailIcon boxSize={10} /><Text>Contactarme</Text></Button>
-                                <Button p='50' m='5'display='block'><CalendarIcon boxSize={10} /><Text>Pedir una cita</Text></Button>
+                        <Flex w='50%' justifyContent={'center'} >
+                                <Flex justifyContent={'center'} alignItems='center' flexDirection='column' p='10' bgColor='#f3f2f5' borderRadius='15' boxShadow='2xl'>
+                                        <EmailIcon boxSize={10} />
+                                        <Text>Contactarme</Text>
+                                </Flex>
+                                <Flex justifyContent={'center'} alignItems='center' flexDirection='column' p='10' bgColor='#f3f2f5' borderRadius='15' ml='10' boxShadow='2xl'>
+                                        <CalendarIcon boxSize={10} />
+                                        <Text>Pedir una cita</Text>
+                                </Flex>
                         </Flex>
                 </Flex>
 
