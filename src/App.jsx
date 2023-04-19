@@ -6,6 +6,7 @@ import DesktopNav from './components/desktop/DesktopNav'
 import DesktopHero from './components/desktop/DesktopHero'
 import DesktopBotonera from './components/desktop/DesktopBotonera'
 import DesktopPortfolio from './components/desktop/DesktopPortfolio'
+import DesktopProyectos from './components/desktop/DesktopProyectos'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <DesktopHero />
         <DesktopBotonera />
         <DesktopPortfolio />
+        <DesktopProyectos />
       </Box>
     </ChakraProvider>
   )
