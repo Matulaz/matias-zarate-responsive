@@ -10,7 +10,7 @@ import gh from '../../assets/img/github.png'
 
 function DesktopPortfolio(){
 
-    return(
+        return(
 
         <ChakraProvider>
         <Box className="Main">    
@@ -39,27 +39,27 @@ function DesktopPortfolio(){
                         </Box>
                 </Flex>
 
-                <Box pl='100px' >
-                        <Text py='5px' fontSize='1em'fontWeight={600}>Acerca de mis...</Text> 
-                        <Text py='5px' color='red' fontSize='1.8em' letterSpacing={4} fontWeight={600}>Skills</Text>
+                <Box pl='200px' paddingBottom='30' >
+                        <Text py='10px' fontSize='1.2em'fontWeight={600}>Acerca de mis...</Text> 
+                        <Text py='10px' color='red' fontSize='2.2em' letterSpacing={4} fontWeight={600}>Skills</Text>
                 </Box>
 
-                <Flex justifyContent={'center'} alignItems={'center'} px='100px' paddingBottom={250}> 
+                <Flex justifyContent={'center'} alignItems={'center'} px='200px' paddingBottom={250}> 
                         <Box w='50%'>
 
-                                <Text py='5px' fontSize='0.8em'>Desarrollo web Front End</Text>
-                                <Progress value={80} colorScheme='yellow' h='18px' borderRadius='2'/>
-                                <Text py='5px' fontSize='0.8em'>Desarrollo web Back End</Text>
-                                <Progress value={60} colorScheme='yellow' h='18px'borderRadius='2'/>
-                                <Text py='5px' fontSize='0.8em'>Diseño Digital</Text>
-                                <Progress value={90} colorScheme='yellow' h='18px'borderRadius='2'/>                        
+                                <Text py='10px' fontSize='1em'>Desarrollo web Front End</Text>
+                                <Progress value={80} colorScheme='yellow' h='24px' borderRadius='2'/>
+                                <Text py='10px' fontSize='1em'>Desarrollo web Back End</Text>
+                                <Progress value={60} colorScheme='yellow' h='24px'borderRadius='2'/>
+                                <Text py='10px' fontSize='1em'>Diseño Digital</Text>
+                                <Progress value={90} colorScheme='yellow' h='24px'borderRadius='2'/>                        
                         </Box>
                         <Flex w='50%' justifyContent={'center'} >
-                                <Flex justifyContent={'center'} alignItems='center' flexDirection='column' p='10' bgColor='#f3f2f5' borderRadius='15' boxShadow='2xl'>
+                                <Flex justifyContent={'center'} alignItems='center' flexDirection='column' p='10' bgColor='#f3f2f5' borderRadius='15' ml='20' boxShadow='2xl'>
                                         <EmailIcon boxSize={10} />
                                         <Text>Contactarme</Text>
                                 </Flex>
-                                <Flex justifyContent={'center'} alignItems='center' flexDirection='column' p='10' bgColor='#f3f2f5' borderRadius='15' ml='10' boxShadow='2xl'>
+                                <Flex justifyContent={'center'} alignItems='center' flexDirection='column' p='10' bgColor='#f3f2f5' borderRadius='15' ml='20' boxShadow='2xl'>
                                         <CalendarIcon boxSize={10} />
                                         <Text>Pedir una cita</Text>
                                 </Flex>

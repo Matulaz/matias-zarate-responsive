@@ -9,9 +9,9 @@ function DesktopProyectos(){
     return(
         <ChakraProvider>
             <Box className="Proyectos">
-            <Box pl='100px' >
-                        <Text py='5px' fontSize='1em'fontWeight={600}>Acerca de mis...</Text> 
-                        <Text py='5px' color='red' fontSize='1.8em' letterSpacing={1} fontWeight={600} h='1000'>Proyectos</Text>
+            <Box pl='200px' >
+                        <Text py='10px' fontSize='1.2em'fontWeight={600}>Acerca de mis...</Text> 
+                        <Text py='10px' color='red' fontSize='2.2em' letterSpacing={1} fontWeight={600} h='1000'>Proyectos</Text>
                 </Box>
 
             </Box>
