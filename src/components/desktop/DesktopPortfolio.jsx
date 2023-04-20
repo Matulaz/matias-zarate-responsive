@@ -61,7 +61,7 @@ function DesktopPortfolio(){
                                 </Flex>
                                 <Flex justifyContent={'center'} alignItems='center' flexDirection='column' p='10' bgColor='#f3f2f5' borderRadius='15' ml='20' boxShadow='2xl'>
                                         <CalendarIcon boxSize={10} />
-                                        <Text>Pedir una cita</Text>
+                                        <Text>Pedir una cita</Text>     
                                 </Flex>
                         </Flex>
                 </Flex>

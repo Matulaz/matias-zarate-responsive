@@ -7,6 +7,8 @@ import DesktopHero from './components/desktop/DesktopHero'
 import DesktopBotonera from './components/desktop/DesktopBotonera'
 import DesktopPortfolio from './components/desktop/DesktopPortfolio'
 import DesktopProyectos from './components/desktop/DesktopProyectos'
+import DesktopForm from './components/desktop/DesktopForm'
+import DesktopFooter from './components/desktop/DesktopFooter'
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
         <DesktopBotonera />
         <DesktopPortfolio />
         <DesktopProyectos />
+        <DesktopForm />
+        <DesktopFooter />
       </Box>
     </ChakraProvider>
   )
