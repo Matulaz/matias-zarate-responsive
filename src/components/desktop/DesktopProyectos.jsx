@@ -21,10 +21,10 @@ function DesktopProyectos(){
                     <Image boxSize='sm' src={notebook} w='50%'/>
                 
                     <Flex justifyContent='center' alignItems='center' w='50%' wrap='wrap' direction='row' paddingRight='100' >
-                        <Image boxSize='250' src={nyc} m='4'/>
-                        <Image boxSize='250' src={sfo} m='4'/>
-                        <Image boxSize='250' src={sfo} m='4'/>
-                        <Image boxSize='250' src={nyc} m='4'/>
+                        <Image boxSize='250' src={nyc} m='4' borderRadius='8' opacity='0.8'/>
+                        <Image boxSize='250' src={sfo} m='4' borderRadius='8' opacity='0.8'/>
+                        <Image boxSize='250' src={sfo} m='4' borderRadius='8' opacity='0.8'/>
+                        <Image boxSize='250' src={nyc} m='4' borderRadius='8' opacity='0.8'/>
                     </Flex>
 
                 </Flex>
