@@ -1,0 +1,10 @@
+.MobileHero{
+    background-image:url('../../assets/img/bg-hero.svg') ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.span{
+    color:red;
+}

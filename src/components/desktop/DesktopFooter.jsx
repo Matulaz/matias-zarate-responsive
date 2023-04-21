@@ -1,6 +1,6 @@
 import * as React from 'react'
 import './DesktopFooter.css'
-import {  ChakraProvider, Box, Text, Image, Flex } from '@chakra-ui/react'
+import {  ChakraProvider, Text, Flex } from '@chakra-ui/react'
 
 
 function DesktopFooter(){

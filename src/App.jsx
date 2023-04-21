@@ -9,6 +9,8 @@ import DesktopPortfolio from './components/desktop/DesktopPortfolio'
 import DesktopProyectos from './components/desktop/DesktopProyectos'
 import DesktopForm from './components/desktop/DesktopForm'
 import DesktopFooter from './components/desktop/DesktopFooter'
+import MobileHero from './components/mobile/MobileHero'
+import MobilePortfolio from './components/mobile/MobilePortfolio'
 
 
 function App() {
@@ -18,6 +20,9 @@ function App() {
     <ChakraProvider>
       <Box display={{base:'inline', md:'none'}}>
         <MobileNav />
+        <MobileHero />
+        <MobilePortfolio />
+        
       </Box>
       <Box display={{base:'none', md:'inline'}}>
         <DesktopNav />
