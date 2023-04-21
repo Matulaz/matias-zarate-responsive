@@ -11,6 +11,7 @@ import DesktopForm from './components/desktop/DesktopForm'
 import DesktopFooter from './components/desktop/DesktopFooter'
 import MobileHero from './components/mobile/MobileHero'
 import MobilePortfolio from './components/mobile/MobilePortfolio'
+import MobileForm from './components/mobile/MobileForm'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <MobileNav />
         <MobileHero />
         <MobilePortfolio />
+        <MobileForm />
         
       </Box>
       <Box display={{base:'none', md:'inline'}}>
