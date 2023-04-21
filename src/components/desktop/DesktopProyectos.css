@@ -6,6 +6,14 @@
     line-height:110%;
     font-size:1em;
     font-weight: 300;
+}
 
+.proyImg:hover {
+    transform:scale(1.1);
 
 }
+
+.proyImg{
+    transition:all 1s;
+}
+

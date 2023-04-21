@@ -10,10 +10,10 @@ function DesktopNav() {
         <Flex>
             <Box className="DesktopNavbar" p='20px' w='100%' bg='white' align='end'>
                 <Box w='95%'>
-                    <a href="">Home</a>
-                    <a href="">Portfolio</a>
-                    <a href="">Acerca de mi</a>
-                    <a href="">Contacto</a>
+                    <a href=''>Home</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#about">Acerca de mi</a>
+                    <a href="#form">Contacto</a>
                 </Box>
 
             </Box>

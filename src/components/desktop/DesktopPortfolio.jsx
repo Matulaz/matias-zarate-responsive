@@ -13,6 +13,7 @@ function DesktopPortfolio(){
         return(
 
         <ChakraProvider>
+        <a name='about'></a>
         <Box className="Main">    
 
                 <Flex justifyContent={'center'} alignItems={'center'} p='100px' >

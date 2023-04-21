@@ -12,7 +12,8 @@ function DesktopForm(){
 
     return(
         <ChakraProvider>
-            <Box className="DesktopForm" paddingBottom='100px'>
+            <a name='form'></a>
+            <Box className="DesktopForm" paddingBottom='50px'>
                 <Box pl='200px' paddingBottom='30px' >
                         <Text fontSize='1.2em' fontWeight={600} py='10px'>Como puedo ayudarte?..</Text> 
                         <Text color='red' fontSize='2.2em' letterSpacing={1} fontWeight={600} py='10px'>Contacto</Text>
@@ -40,7 +41,7 @@ function DesktopForm(){
                             <Input type='tel' variant='filled' placeholder='Phone number' bg='gray.100' />
                             </InputGroup>
 
-                            <Textarea placeholder='Dejame un comentario' variant='filled' />
+                            <Textarea placeholder='Dejame un comentario' variant='filled' h='300' />
                             
                         </Stack>
 

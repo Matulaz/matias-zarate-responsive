@@ -16,3 +16,20 @@
     background-size: 100%;
     background-color:#f3f2f5;
 }
+
+.HeroImg{
+    animation-name: entradaDer;
+    animation-duration: 2s;
+}
+
+@keyframes entradaDer{
+    from {
+        transform: translateX(110vh);
+      }
+      to {
+        transform: translateX(0);
+      }
+    
+}
+
+

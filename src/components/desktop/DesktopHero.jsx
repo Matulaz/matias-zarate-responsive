@@ -12,7 +12,7 @@ function DesktopHero () {
     return (
         <ChakraProvider>
         <Flex className="Hero" pt='100px' h='800px' w='100%'>
-            <Box flex w='100%' pt='150px' pl='200px'>
+            <Box className='HeroBox' flex w='100%' pt='150px' pl='200px'>
                 <Box as='h1' className='txt-hero' fontWeight='700' fontSize='6em'>Hi! I'm <Box as='span' color='red'>Mati</Box></Box>
                 <Box as='h3' className='txt-hero-span' fontWeight='700' fontSize='3.6em'>A Fullstack web Dev</Box>
 
@@ -30,7 +30,7 @@ function DesktopHero () {
 
             </Box>
             <Box>
-                <Box as='img' src={ foto } alt='matulaz' h='80%' me='500' />
+                <Box className='HeroImg' as='img' src={ foto } alt='matulaz' h='80%' me='500' />
             </Box>
 
         </Flex>
