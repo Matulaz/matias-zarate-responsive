@@ -1,0 +1,11 @@
+.DesktopForm{
+    font-family: 'Poppins', sans-serif;
+    line-height:110%;
+    font-weight: 300;
+}
+
+.icono {
+    color:#ffcc00;
+    margin-left:10px;
+    margin-right: 10px;
+}

@@ -20,8 +20,9 @@ function DesktopPortfolio(){
                                 <Box as='img' src={ foto } alt='matulaz'ps='30px' w='60%'/>
                         </Box>
                         <Box pe='100px' w='50%'>
-                                <Box as='h1' color='red' fontWeight={'400'}>Acerca de mi..</Box>
-                                <Box as='p' pt='10px'>Mi nombre es Matias, soy Desarrollador Web Fullstack y Psicologo. Comence mis estudios en Ingrenieria Industrial en la Universidad Nacional de Cordoba cuando termine el secundario, en este ambito academico tome mi primer contacto con la programacion y el diseño.
+                                <Text fontSize='1.2em' fontWeight={600}>Acerca de mi..</Text>
+                                <Text color='red' fontSize='2.2em' letterSpacing={0} fontWeight={600} py='20px'>Hola, soy Mati</Text>
+                                <Box as='p' py='20px'>... soy Desarrollador Web Fullstack y Psicologo. Comence mis estudios en Ingrenieria Industrial en la Universidad Nacional de Cordoba cuando termine el secundario, en este ambito academico tome mi primer contacto con la programacion y el diseño.
                                 En 2020 me recibi como programador FullStack en Acamica,  luego como programador Front End con React JS en 2023 en la UTN-BA y actualmente estoy cursando un curso de programacion avanzado orientado al Back End con Node JS tambien en la UTN-BA. 
                                 Ademas de esto hice cursos de diseño con illustrator y photoshop, extendiendo esto a Figma.
                                 Tambien hice un curso de la UNC de infraestructura con AWS y cultura DevOps.
@@ -59,7 +60,7 @@ function DesktopPortfolio(){
                                         <EmailIcon boxSize={10} />
                                         <Text>Contactarme</Text>
                                 </Flex>
-                                <Flex justifyContent={'center'} alignItems='center' flexDirection='column' p='10' bgColor='#f3f2f5' borderRadius='15' ml='20' boxShadow='2xl'>
+                                <Flex justifyContent={'center'} alignItems='center' flexDirection='column' p='10' bgColor='#f3f2f5' borderRadius='15' ml='10' boxShadow='2xl'>
                                         <CalendarIcon boxSize={10} />
                                         <Text>Pedir una cita</Text>     
                                 </Flex>
