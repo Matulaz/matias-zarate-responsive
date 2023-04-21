@@ -1,6 +1,6 @@
 import * as React from 'react'
 import './DesktopForm.css'
-import {  ChakraProvider, Box, Text, Image, Flex, Stack, Input, InputLeftElement, InputGroup, Textarea  } from '@chakra-ui/react'
+import {  ChakraProvider, Box, Text, Image, Flex, Stack, Input, InputLeftElement, InputGroup, Textarea, Button  } from '@chakra-ui/react'
 import { PhoneIcon, EmailIcon } from '@chakra-ui/icons'
 
 
@@ -13,7 +13,7 @@ function DesktopForm(){
     return(
         <ChakraProvider>
             <a name='form'></a>
-            <Box className="DesktopForm" paddingBottom='50px'>
+            <Box className="DesktopForm" paddingBottom='30px'>
                 <Box pl='200px' paddingBottom='30px' >
                         <Text fontSize='1.2em' fontWeight={600} py='10px'>Como puedo ayudarte?..</Text> 
                         <Text color='red' fontSize='2.2em' letterSpacing={1} fontWeight={600} py='10px'>Contacto</Text>
@@ -29,6 +29,7 @@ function DesktopForm(){
                                 {/* INSERTE ICONOS DE REDES SOCIALES */}
                             </Box>
                         </Stack>
+
                         <Stack spacing={3} w='50%'>
                             <Input variant='filled' placeholder='Nombre' />
                             <Input variant='filled' placeholder='E-mail' />
@@ -42,8 +43,11 @@ function DesktopForm(){
                             </InputGroup>
 
                             <Textarea placeholder='Dejame un comentario' variant='filled' h='300' />
+
+                            <Button>Enviar</Button>
                             
                         </Stack>
+
 
 
 

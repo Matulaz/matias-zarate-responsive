@@ -7,10 +7,13 @@ function DesktopFooter(){
 
     return(
         <ChakraProvider>
-            <Box className="DesktopFooter">
+            <Flex className="DesktopFooter" bgColor='#edf2f7' h='60px' justifyContent={'center'} alignItems={'center'} mt='50'>
+
+                <Text fontSize='0.8em'>Find me! at @matulaz - 2023</Text>
+
                 
 
-            </Box>
+            </Flex>
         </ChakraProvider>       
     )    
 }
