@@ -14,9 +14,9 @@ function DesktopBotonera() {
         <ChakraProvider>
         <Flex justify='center' pt='50px' >
             <Box className='Buttons-container' display='flex' alignItems='center'>
-                    <Box p='30px' ps='20'>portfolio dev.</Box>
-                    <Box p='30px'borderLeft='#E8E2E2 solid 2px'>logros academicos</Box>
-                    <Box p='30px' pe='20' borderLeft='#E8E2E2 solid 2px'>acerca de mi...</Box>
+                    <Box p='30px' ps='20'><a href="#proyectos">proyectos dev</a>.</Box>
+                    <Box p='30px'borderLeft='#E8E2E2 solid 2px'><a href='#skills'>logros academicos</a></Box>
+                    <Box p='30px' pe='20' borderLeft='#E8E2E2 solid 2px'><a href='#about'>acerca de mi...</a></Box>
             </Box>
         </Flex>
     </ChakraProvider>

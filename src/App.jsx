@@ -24,6 +24,7 @@ function App() {
         <MobileHero />
         <MobilePortfolio />
         <MobileForm />
+        <DesktopFooter />
         
       </Box>
       <Box display={{base:'none', md:'inline'}}>

@@ -17,9 +17,17 @@ function MobilePortfolio(){
                         <Text color='red' fontSize='1.4em'fontWeight={600} paddingBottom='10px'>Proyectos</Text>
             </Box>
             <Flex justifyContent='center' alignItems='center' direction='column' >
-                        <Image className='proyImg' boxSize='60%' src={marvel} m='1' borderRadius='4'/>
-                        <Image className='proyImg' boxSize='60%' src={tweet} m='1' borderRadius='4'/>
-                        <Image className='proyImg' boxSize='60%' src={pixel} m='1' borderRadius='4'/>
+                        <Box as='a' href='https://matulaz.github.io/Marvel-api-search/'>
+                        <Image className='proyImg' src={marvel} m='1'/>
+                        </Box>
+                        <Box as='a' href='https://matulaz.github.io/practiceFlexbox-tweetCard/'>
+                        <Image className='proyImg' src={tweet} m='1'/>
+                        </Box>
+                        <Box as='a' href='https://matulaz.github.io/pixelArt/'>
+                        <Image className='proyImg' src={pixel} m='1'/>
+                        </Box>
+                        
+
                     </Flex>
             </Box>
 

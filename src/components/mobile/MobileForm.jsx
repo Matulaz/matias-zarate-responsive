@@ -6,7 +6,7 @@ import { PhoneIcon, EmailIcon } from '@chakra-ui/icons'
 function MobileForm(){
     return(
         <ChakraProvider>    
-            <Box className='Form' py='10%'>
+            <Box className='Form' pt='10%'>
             <Box pl='20px'>
                         <Text fontSize='0.8em'fontWeight={400}>Como puedo ayudarte?..</Text> 
                         <Text color='red' fontSize='1.4em'fontWeight={600} paddingBottom='10px'>Contacto</Text>

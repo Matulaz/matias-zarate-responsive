@@ -35,12 +35,12 @@ function DesktopPortfolio(){
                                         <Box as='p' p='10px'>@Matulaz</Box>
                                         <Box as='img' ml='10px' src={ fb } alt='instagram-matulaz' w='32px' ></Box>
                                         <Box as='p' p='10px'>Mati Zarate</Box>
-                                        <Box as='img' ml='10px' src={ gh } alt='instagram-matulaz' w='32px' ></Box>
+                                        <Box as='img' ml='10px' src={ gh } alt='instagram-matulaz' w='32px'></Box>
                                         <Box as='p' p='10px'>.com/matulaz</Box>
                                 </Flex>
                         </Box>
                 </Flex>
-
+                <a name='skills'></a>   
                 <Box pl='200px' paddingBottom='30' >
                         <Text py='10px' fontSize='1.2em'fontWeight={600}>Acerca de mis...</Text> 
                         <Text py='10px' color='red' fontSize='2.2em' letterSpacing={4} fontWeight={600}>Skills</Text>
@@ -59,7 +59,7 @@ function DesktopPortfolio(){
                         <Flex w='50%' justifyContent={'center'} >
                                 <Flex justifyContent={'center'} alignItems='center' flexDirection='column' p='10' bgColor='#f3f2f5' borderRadius='15' ml='20' boxShadow='2xl'>
                                         <EmailIcon boxSize={10} />
-                                        <Text>Contactarme</Text>
+                                        <Text href='mailto:matiaszarate.dev@gmail.com'>Contactarme</Text>
                                 </Flex>
                                 <Flex justifyContent={'center'} alignItems='center' flexDirection='column' p='10' bgColor='#f3f2f5' borderRadius='15' ml='10' boxShadow='2xl'>
                                         <CalendarIcon boxSize={10} />
