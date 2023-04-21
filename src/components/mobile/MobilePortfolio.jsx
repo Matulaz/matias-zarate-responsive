@@ -1,7 +1,9 @@
 import React from 'react'
 import {  ChakraProvider, Box, Flex, Image, Text} from '@chakra-ui/react'
 import './MobilePortfolio.css'
-import nyc from '../../assets/img/nyc.jpg'
+import tweet from '../../assets/img/tweet.png'
+import marvel from '../../assets/img/marvel.png'
+import pixel from '../../assets/img/pixel.png'
 
 
 
@@ -15,9 +17,9 @@ function MobilePortfolio(){
                         <Text color='red' fontSize='1.4em'fontWeight={600} paddingBottom='10px'>Proyectos</Text>
             </Box>
             <Flex justifyContent='center' alignItems='center' direction='column' >
-                        <Image className='proyImg' boxSize='60%' src={nyc} m='1' borderRadius='8'/>
-                        <Image className='proyImg' boxSize='60%' src={nyc} m='1' borderRadius='8'/>
-                        <Image className='proyImg' boxSize='60%' src={nyc} m='1' borderRadius='8'/>
+                        <Image className='proyImg' boxSize='60%' src={marvel} m='1' borderRadius='4'/>
+                        <Image className='proyImg' boxSize='60%' src={tweet} m='1' borderRadius='4'/>
+                        <Image className='proyImg' boxSize='60%' src={pixel} m='1' borderRadius='4'/>
                     </Flex>
             </Box>
 

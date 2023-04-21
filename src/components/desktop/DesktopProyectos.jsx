@@ -1,9 +1,10 @@
 import * as React from 'react'
 import {  ChakraProvider, Box, Text, Image, Flex } from '@chakra-ui/react'
 import './DesktopProyectos.css'
-import notebook from '../../assets/img/notebook.svg'
-import nyc from '../../assets/img/nyc.jpg'
-import sfo from '../../assets/img/sfo.jpg'
+import notebook from '../../assets/img/notebook.png'
+import tweet from '../../assets/img/tweet.png'
+import marvel from '../../assets/img/marvel.png'
+import pixel from '../../assets/img/pixel.png'
 
 
 function DesktopProyectos(){
@@ -22,10 +23,10 @@ function DesktopProyectos(){
                     <Image boxSize='sm' src={notebook} w='50%'/>
                 
                     <Flex justifyContent='center' alignItems='center' w='50%' wrap='wrap' direction='row' paddingRight='200' >
-                        <Image className='proyImg' boxSize='240' src={nyc} m='4' borderRadius='8' opacity='0.8'/>
-                        <Image className='proyImg' boxSize='240' src={sfo} m='4' borderRadius='8' opacity='0.8'/>
-                        <Image className='proyImg' boxSize='240' src={sfo} m='4' borderRadius='8' opacity='0.8'/>
-                        <Image className='proyImg' boxSize='240' src={nyc} m='4' borderRadius='8' opacity='0.8'/>
+                        <Image className='proyImg' boxSize='45%' src={marvel} m='2' borderRadius='4' />
+                        <Image className='proyImg' boxSize='45%' src={pixel} m='2' borderRadius='4' />
+                        <Image className='proyImg' boxSize='45%' src={tweet} m='2' borderRadius='4' />
+                        <Image className='proyImg' boxSize='45%' src={marvel} m='2' borderRadius='4' />
                     </Flex>
 
                 </Flex>

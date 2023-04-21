@@ -29,25 +29,27 @@ function DesktopForm(){
                                 {/* INSERTE ICONOS DE REDES SOCIALES */}
                             </Box>
                         </Stack>
-
-                        <Stack spacing={3} w='50%'>
-                            <Input variant='filled' placeholder='Nombre' />
-                            <Input variant='filled' placeholder='E-mail' />
+                        <Box w='50%'>
+                        <form action="https://formsubmit.co/matiaszarate.dev@gmail.com" method="POST">
+                            <Input variant='filled' placeholder='Nombre' name='nombre'/>
+                            <Input variant='filled' placeholder='E-mail' name='email' mt='10px'/>
 
                             <InputGroup>
                             <InputLeftElement
                             pointerEvents='none'
-                            children={<PhoneIcon color='gray.300' />}
+                            children={<PhoneIcon color='gray.300' mt='10px'/>}
                             />
-                            <Input type='tel' variant='filled' placeholder='Phone number' bg='gray.100' />
+                            <Input type='tel' variant='filled' placeholder='Phone number' bg='gray.100' name='telefono' mt='10px'/>
                             </InputGroup>
 
-                            <Textarea placeholder='Dejame un comentario' variant='filled' h='300' />
+                            <Textarea placeholder='Dejame un comentario' variant='filled' h='300' name='Comentarios' mt='10px'/>
 
-                            <Button>Enviar</Button>
+                            <Button type='submit' value='Enviar' mt='10px'>Enviar</Button>
+
+                            <Input type='hidden' name='_next' value='https://matias-zarate-cv.netlify.app/' method="POST"></Input>
+                        </form>
                             
-                        </Stack>
-
+                        </Box>
 
 
 
